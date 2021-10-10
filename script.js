@@ -13,7 +13,11 @@ numbers.forEach((number) => {
     number.addEventListener("click", (event) => {
         console.log(event.target.value)
     })
-});
+});             // Pengujian pertama Program kalkulator harus dapat menerima input dari tombol-tombol dan menampilkannya di layar display program kalkulator.
+                // screenshoot hasil pengujian (input angka 5) : https://prnt.sc/1vjhtwf
+                
+                // pengujian kedua Program kalkulator memiliki fungsi kalkulasi berupa pengurangan, penjumlahan, perkalian dan pembagian serta memiliki angka 0 dan angka 1 sampai 9. 
+                //  screenshoot hasil pengujian : https://prnt.sc/1vjhecz
 
 // membuat agar layar dapat menampilkan angka saat diklik
 const calculatorScreen = document.querySelector(".calculator-screen")
