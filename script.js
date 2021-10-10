@@ -153,24 +153,53 @@ decimal.addEventListener('click', (event) => {
 
 
 // Pengujian Program Kalkulator
+
 // 1. Program kalkulator harus dapat menerima input dari tombol-tombol dan menampilkannya di layar display program kalkulator.
-// screenshoot hasil pengujian (input angka 5) : https://prnt.sc/1vjiolz
+// Langkah pengujian :
+// Klik angka 5 pada layout program kalkulator
+    // screenshoot hasil pengujian (input angka 5) : https://prnt.sc/1vjiolz
 
 // 2. Program kalkulator memiliki fungsi kalkulasi berupa pengurangan, penjumlahan, perkalian dan pembagian serta memiliki angka 0 dan angka 1 sampai 9. 
-// screenshoot hasil pengujian : https://prnt.sc/1vjiqm8
+// Langkah pengujian :
+// Mengecek file index.html dengan extension Live Server
+    // screenshoot hasil pengujian : https://prnt.sc/1vjiqm8
 
 // 3. Program harus dapat melakukan suatu kalkulasi setidaknya 2 angka dan satu operator, misal menampilkan hasil dari 20 : 2.
-// screenshoot hasil pengujian (20 / 2) = https://prnt.sc/1vjjg7s
+// Langkah pengujian :
+// Klik angka 2 kemudian 0
+// Klik operator pembagian
+// Klik angka 2
+// Klik equal sign (=)
+    // screenshoot hasil pengujian (20 / 2) = https://prnt.sc/1vjjg7s
 
 // 4. Program tidak boleh menampilkan angka yang diawali dengan angka nol, misal 078.
-// screenshoot hasil pengujian : https://prnt.sc/1vjjmfj
+// Langkah pengujian :
+// Klik angka 0 kemudian angka 7 lalu angka 8
+    // screenshoot hasil pengujian : https://prnt.sc/1vjjmfj
 
 // 5. Program juga wajib memiliki fungsi decimal dan persen yang bisa dijalankan dengan baik.
-// screenshoot hasil pengujian decimal (1.5 + 1.75) = https://prnt.sc/1vjjtt5
-// screenshoot hasil pengujian persen (input angka 96 dan %) = https://prnt.sc/1vjk4ng
+// Langkah pengujian decimal:
+// Klik angka 1
+// klik tanda dot (.)
+// Klik angka 5
+// Klik operator penjumlahan (+)
+// Klik angka 1
+// klik tanda dot (.)
+// Klik angka 7
+// Klik angka 5
+// Klik equal sign (=)
+    // screenshoot hasil pengujian decimal (1.5 + 1.75) = https://prnt.sc/1vjjtt5
+
+// Langkah pengujian persen:
+// Klik angka 9
+// klik angka 6
+// klik persen (%)
+    // screenshoot hasil pengujian persen (input angka 96 dan %) = https://prnt.sc/1vjk4ng
 
 // 6. Program juga memiliki fungsi CLEAR atau AC yang dapat membersihkan riwayat kalkulasi sebelumnya.
-// screenshoot hasil pengujian tombol AC : https://prnt.sc/1vjkcn9
+// Langkah pengujian :
+//setelah melakukan pengujian persen, klik AC untuk menghapus angka yang tampil
+    // screenshoot hasil pengujian tombol AC : https://prnt.sc/1vjkcn9
 
 // 7. Tampilan program harus rapi, menarik dan mudah digunakan.
 // screenshoot hasil pengujian : https://prnt.sc/1vjkkmr
