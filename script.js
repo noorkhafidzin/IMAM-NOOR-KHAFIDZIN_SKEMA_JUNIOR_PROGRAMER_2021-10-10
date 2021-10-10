@@ -81,7 +81,7 @@ const calculate = () => {
     let result = ''
     switch(calculatorOperator) {
         case "+": // untuk penjumlahan
-            result = parseFloat(prevNumber) + parseFloat(currentNumber)
+            result = parseFloat(prevNumber) + parseFloat(currentNumber) // menggunakan parseFloat agar bisa mengkalkulasi angka desimal
             break
         case "-": // untuk pengurangan
             result = parseFloat(prevNumber) - parseFloat(currentNumber)
